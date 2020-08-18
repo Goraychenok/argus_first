@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="img/logo.png">
+    <title>Аргус72</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <a href="./index.html"  class="header__logo">
+                    <img src="img/header/logo.svg" alt="">
+                </a>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li><a href="./index.html" class="header__link">Главная</a></li>
+                        <li><a href="javascript://0"  onclick="slowScroll('#about')" class="header__link">О нас</a></li>
+                        <li><a href="javascript://0"  onclick="slowScroll('#services')" class="header__link">Услуги</a></li>
+                        <li><a href="#"   class="header__link">Прайс-лист</a></li>
+                        <li><a href="javascript://0"  onclick="slowScroll('#contacts')" class="header__link">Конаткты</a></li>
+                    </ul>
+                    <div class="header__block">
+                        <ul class="header__list">
+                            <li><a href="tel:8(3452)593671" class="header-link"><img src="./img/header/phone.svg" alt="" class="header-link-img"><p class="header-link-span">8 (3452) 59 – 36 – 71</p></a></li>
+                            <li><a href="mailto:argus-ops@mail.ru" class="header-link"><img src="./img/header/mail.svg" alt="" class="header-link-img"><p class="header-link-span">argus-ops@mail.ru</p></a></li>
+                            <li><a target="_blank" href="https://yandex.ru/maps/55/tyumen/house/ulitsa_permyakova_46/YkwYcwBpQE0HQFttfX1zcXlkZw==/?ll=65.579980%2C57.120573&z=17.09" class="header-link"><img src="./img/header/map.svg" alt="" class="header-link-img"><p class="header-link-span">Адрес: г.Тюмень Пемякова<br> 46, каб. 512</p></a></li>
+                        </ul>
+                    </div>
+                </nav>
+                
+                <button class="button header__button popup-btn">Обратный звонок</button>
+            </div>
+        </div>
+    </header>
+   <section class="section home-first">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-7 col-md-7 col-12">
+                   <h1 class="home-first-title">
+                    <span>Аргус</span> – сильная, надежная компания. Содействующая организациям в развитии современного института пожарной и технологической безопасности.
+                   </h1>
+               </div>
+               <div class="offset-lg-1 col-lg-4 offset-md-1 col-md-4 col-10 offset-0">
+                   <div class="home-first-block">
+                    <p class="home-first-paragraph">
+                        Разработка проектов и СТУ<br>
+                        Монтаж<br>
+                        Обслуживание<br>
+                        Пожарный аудит<br>                 
+                       </p>
+                   </div>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col-lg-4 col-md-6 col-12">
+                   <div class="home-first-block-btn">
+                       <button class="button popup-btn home-first-btn">Оставить заявку</button>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <section class="section home-about" id="about">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-12">
+                   <h5 class="section-title">О нас</h5>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col-lg-12">
+                   <div class="home-about-block">
+                        <div class="home-about-blocking">
+                            <div class="home-about-text">
+                                <h3 class="home-about-paragraph">
+                                Аргус, мы работаем с 2004 года, сотрудничаем с лучшими компаниями.
+                               </h3>
+                               <a href="./about.html"><button class="button home-about-btn">Узнать Подробнее <span>&#62;</span></button></a>
+                            </div>
+                            <div class="home-about-img-block">
+                                <img src="./img/home/about/Ellipse.svg" alt="" class="home-about-img">
+                            </div>
+                            <div class="home-about-block-btn">
+                                <a href="./about.html"><button class="button home-about-btn-two">Узнать Подробнее <span>&#62;</span></button></a>
+                            </div>
+                        </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <section class="section home-services" id="services">
+       <div class="container">
+           <div class="row">
+            <div class="col-lg-7">
+                <h5 class="section-title">Наши услуги</h5>
+                <p class="section-paragraph">
+                    Наша компания предоставляет большой спектр услуг с индивидуальным подходом и решением к каждому заказчику. Без шаблонов. 
+                </p>
+            </div>
+           </div>
+           <div class="row">
+               <div class="col-lg-3 col-md-4 col-6">
+                   <a href="#">
+                    <div class="home-services-block">
+                        <div class="home-services-block_active">
+                            <p class="home-services-block_active-paragraph">Система автоматического пожаротушения - совокупность стационарных технических средств для тушения пожара за счёт огнетушащего вещества. Системы автоматического пожаротушения приводятся в действие пожарной автоматикой и обеспечивают оперативное тушение очага возгорания без участия человека</p>
+                        </div>
+                        <div class="home-services-block_passive">
+                            <p class="home-services-block_passive-paragraph">Системы автоматического пожаротушения</p>
+                            <img src="./img/home/services/fire.svg" alt="" class="home-services-block_passive-img">
+                        </div>
+                     </div>
+                   </a>
+               </div>
+               <div class="col-lg-3 col-md-4 col-6">
+                   <a href="#">
+                    <div class="home-services-block">
+                        <div class="home-services-block_active">
+                         <p class="home-services-block_active-paragraph">Система оповещения и управления эвакуацией людей: комплекс организационных мероприятий и технических средств, предназначенный для своевременного сообщения людям информации о возникновении пожара, необходимости эвакуироваться, путях и очередности эвакуации.</p>
+                        </div>
+                        <div class="home-services-block_passive">
+                            <p class="home-services-block_passive-paragraph">Системы пожарной сигнализации и оповещение людей при пожаре</p>
+                            <img src="./img/home/services/fire_two.svg" alt="" class="home-services-block_passive-img">
+                        </div>
+                    </div>
+                   </a>
+               </div>
+               <div class="col-lg-3 col-md-4 col-6">
+                   <a href="#">
+                    <div class="home-services-block">
+                        <div class="home-services-block_active">
+                         <p class="home-services-block_active-paragraph">Общеобменная вытяжная вентиляция предназначена для удаления загрязненного вредными веществами воздуха из вентилируемого помещения.</p>
+                        </div>
+                        <div class="home-services-block_passive">
+                            <p class="home-services-block_passive-paragraph">Система общеобменной вентиляции</p>
+                            <img src="./img/home/services/fire_three.svg" alt="" class="home-services-block_passive-img">
+                        </div>
+                    </div>
+                   </a>
+               </div>
+               <div class="col-lg-3 col-md-4 col-6">
+                   <a href="#">
+                    <div class="home-services-block">
+                        <div class="home-services-block_active">
+                         <p class="home-services-block_active-paragraph">Противодымная вентиляция – это специальная система удаления дыма и продуктов горения из закрытых помещений. Чаще всего она монтируется в местах, где может находиться большое количество людей, но нет естественного доступа свежего воздуха</p>
+                        </div>
+                        <div class="home-services-block_passive">
+                            <p class="home-services-block_passive-paragraph">Система противодымной вентиляции</p>
+                            <img src="./img/home/services/anti_smoke.svg" alt="" class="home-services-block_passive-img">
+                        </div>
+                    </div>
+                   </a>
+               </div>
+               <div class="col-lg-3 col-md-4 col-6">
+                   <a href="#">
+                    <div class="home-services-block">
+                        <div class="home-services-block_active">
+                         <p class="home-services-block_active-paragraph">Противопожарная преграда — строительная конструкция с нормированным пределом огнестойкости и нормированным классом конструктивной пожарной опасности, предназначенные для предотвращения распространения пожара из одной части здания в другую или между зданиями</p>
+                        </div>
+                        <div class="home-services-block_passive">
+                            <p class="home-services-block_passive-paragraph">Системы противопожарных преград (противопожарные шторы, двери)</p>
+                            <img src="./img/home/services/fire_four.svg" alt="" class="home-services-block_passive-img">
+                        </div>
+                    </div>
+                   </a>
+               </div>
+               <div class="col-lg-3 col-md-4 col-6">
+                   <a href="#">
+                    <div class="home-services-block">
+                        <div class="home-services-block_active">
+                         <p class="home-services-block_active-paragraph">Огнезащитная обработка — нанесение огнезащитного состава на поверхность объекта огнезащиты (окраска, обмазка, напыление и т. п.).</p>
+                        </div>
+                        <div class="home-services-block_passive">
+                            <p class="home-services-block_passive-paragraph">Огнезащитная обработка</p>
+                            <img src="./img/home/services/fire_five.svg" alt="" class="home-services-block_passive-img">
+                        </div>
+                    </div>
+                   </a>
+               </div>
+               <div class="col-lg-3 col-md-4 col-6">
+                   <a href="#">
+                    <div class="home-services-block">
+                        <div class="home-services-block_active">
+                         <p class="home-services-block_active-paragraph">Системы водоснабжения и канализации — это комплекс инженерных сооружений, который предназначен для постоянного снабжения потребителей холодной и горячей водой в необходимом количестве и качестве, а также отведения из здания «сточной» жидкости.</p>
+                        </div>
+                        <div class="home-services-block_passive">
+                            <p class="home-services-block_passive-paragraph">Система водопровода и канализации</p>
+                            <img src="./img/home/services/water.svg" alt="" class="home-services-block_passive-img">
+                        </div>
+                    </div>
+                   </a>
+               </div>
+               <div class="col-lg-3 col-md-4 col-6">
+                   <a href="#">
+                    <div class="home-services-block">
+                        <div class="home-services-block_active">
+                         <p class="home-services-block_active-paragraph">План эвакуации - заранее разработанный план (схема), в котором указаны пути эвакуации, эвакуационные и аварийные выходы, установлены правила поведения людей, порядок и последовательность действий в условиях чрезвычайной ситуации.</p>
+                        </div>
+                        <div class="home-services-block_passive">
+                            <p class="home-services-block_passive-paragraph">Разработка, изготовление планов эвакуации</p>
+                            <img src="./img/home/services/evacuation.svg" alt="" class="home-services-block_passive-img">
+                        </div>
+                    </div>
+                   </a>
+               </div>
+               <div class="col-lg-3 col-md-4 col-6">
+                   <a href="#">
+                    <div class="home-services-block">
+                        <div class="home-services-block_active">
+                         <p class="home-services-block_active-paragraph">Система пожарной сигнализации — установки пожарной сигнализации, смонтированные на одном объекте и контролируемые с общего пожарного поста.</p>
+                        </div>
+                        <div class="home-services-block_passive">
+                            <p class="home-services-block_passive-paragraph">Разработка мероприятий по обеспечению пожарной сигнализации</p>
+                            <img src="./img/home/services/fire_signal.svg" alt="" class="home-services-block_passive-img">
+                        </div>
+                    </div>
+                   </a>
+               </div>
+               <div class="col-lg-3 col-md-4 col-6">
+                   <a href="#">
+                    <div class="home-services-block">
+                        <div class="home-services-block_active">
+                         <p class="home-services-block_active-paragraph">Независимая оценка пожарного риска (аудит пожарной безопасности) — форма оценки соответствия, которая проводится третьим лицом (независимым от проектировщика и собственника здания). Для оценки соответствия привлекается экспертная организация, осуществляющая деятельность в области оценки пожарного риска.</p>
+                        </div>
+                        <div class="home-services-block_passive">
+                            <p class="home-services-block_passive-paragraph">Проведение независимой оценки риска<br>
+                             (Пожарный аудит)</p>
+                            <img src="./img/home/services/fire_audit.svg" alt="" class="home-services-block_passive-img">
+                        </div>
+                    </div>
+                   </a>
+               </div>
+               <div class="col-lg-3 col-md-4 col-6">
+                   <a href="#">
+                    <div class="home-services-block">
+                        <div class="home-services-block_active">
+                         <p class="home-services-block_active-paragraph">Пожарный риск — мера возможности реализации пожарной опасности объекта защиты и её последствий для людей и материальных ценностей</p>
+                        </div>
+                        <div class="home-services-block_passive">
+                            <p class="home-services-block_passive-paragraph">Разработка пожарного риска</p>
+                            <img src="./img/home/services/fire_danger.svg" alt="" class="home-services-block_passive-img">
+                        </div>
+                    </div>
+                   </a>
+               </div>
+               <div class="col-lg-3 col-md-4 col-6">
+                   <a href="#">
+                    <div class="home-services-block">
+                        <div class="home-services-block_active">
+                         <p class="home-services-block_active-paragraph">Условий — это разработка сбалансированного комплекса нормативных требований по пожарной безопасности для конкретного объекта с целью обоснования отступлений от требований действующих норм или разработки новых требований.</p>
+                        </div>
+                        <div class="home-services-block_passive">
+                            <p class="home-services-block_passive-paragraph">Разработка и согласование специальных технических условий</p>
+                            <img src="./img/home/services/fire_technik.svg" alt="" class="home-services-block_passive-img">
+                        </div>
+                    </div>
+                   </a>
+               </div>
+               <div class="col-lg-3 col-md-4 col-6">
+                   <a href="#">
+                    <div class="home-services-block">
+                        <div class="home-services-block_active">
+                         <p class="home-services-block_active-paragraph">Сети связи – это совокупность программных и аппаратных средств, позволяющих организовать полноценную оперативную коммуникацию между сотрудниками и руководителями, а также запрограммировать оповещение о чрезвычайных ситуациях.</p>
+                        </div>
+                        <div class="home-services-block_passive">
+                            <p class="home-services-block_passive-paragraph">Монтаж сетей
+                             связи</p>
+                            <img src="./img/home/services/connection.svg" alt="" class="home-services-block_passive-img">
+                        </div>
+                    </div>
+                   </a>
+               </div>
+               <div class="col-lg-3 col-md-4 col-6">
+                <a href="#">
+                    <div class="home-services-block">
+                        <div class="home-services-block_active">
+                         <p class="home-services-block_active-paragraph">Простейшая установка видеонаблюдения включает в себя подключение камеры, установку монитора в пункте слежения и подключение и настройка работы видеорегистратора – устройства, которое в режиме реального времени будет записывать картинку с камеры или нескольких камер на жесткий диск</p>
+                        </div>
+                        <div class="home-services-block_passive">
+                            <p class="home-services-block_passive-paragraph">Монтаж видеонаблюдения</p>
+                            <img src="./img/home/services/video.svg" alt="" class="home-services-block_passive-img">
+                        </div>
+                    </div>
+                </a>
+                </div>
+               <div class="col-lg-3 col-md-4 col-6">
+                   <a href="#">
+                    <div class="home-services-block">
+                        <div class="home-services-block_active">
+                         <p class="home-services-block_active-paragraph">Разработка Специальных Технических Системы контроля и управления доступа – на сегодняшний день наиболее эффективный способ осуществления безопасности как отдельного помещения, так и целого предприятия.</p>
+                        </div>
+                        <div class="home-services-block_passive">
+                            <p class="home-services-block_passive-paragraph">Монтаж системы контроля доступа (шлагбаум, турникет)</p>
+                            <img src="./img/home/services/barrier.svg" alt="" class="home-services-block_passive-img">
+                        </div>
+                    </div>
+                   </a>
+               </div>
+               <div class="col-lg-3 col-md-4 offset-lg-0 offset-md-4 col-6 offset-0">
+                <a href="#">
+                    <div class="home-services-block">
+                        <div class="home-services-block_active"><p class="home-services-block_active-paragraph">Инженерные системы и сети — основа инфраструктуры любого объекта строительства, поэтому их проектирование — крайне сложный, ответственный и трудоемкий процесс. Ошибки, допущенные на данном этапе, приведут к серьезным проблемам в функционировании всего строения.</p></div>
+                        <div class="home-services-block_passive">
+                            <p class="home-services-block_passive-paragraph">Разработка проектных инженерных сетей</p>
+                            <img src="./img/home/services/net.svg" alt="" class="home-services-block_passive-img">
+                        </div>
+                    </div>
+                </a>
+                </div>
+           </div>
+       </div>
+   </section>
+
+   <section class="section contacts" id="contacts">
+       <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h5 class="section-title">Контакты</h5>
+            </div>
+        </div>
+       </div>
+       <div class="contacts-block">
+           <div class="contacts-mobile">
+               <div class="container">
+                   <div class="row">
+                       <div class="col-12">
+                        <div class="contacts-text_block"><a href="tel:8(3452)593671" class="contacts-link"><img src="./img/home/contacts/phone.svg" alt="" class="contacts-img"><p class="contacts-span">8 (3452) 59 – 36 – 71</p></a></div>
+                        <div class="contacts-text_block"><a href="mailto:argus-ops@mail.ru" class="contacts-link"><img src="./img/home/contacts/mail.svg" alt="" class="contacts-img"><p class="contacts-span">argus-ops@mail.ru</p></a></div>
+                        <div class="contacts-text_block"><a target="_blank" href="https://yandex.ru/maps/55/tyumen/house/ulitsa_permyakova_46/YkwYcwBpQE0HQFttfX1zcXlkZw==/?ll=65.579980%2C57.120573&z=17.09" class="contacts-link"><img src="./img/home/contacts/map.svg" alt="" class="contacts-img"><p class="contacts-span">Адрес: г.Тюмень Пемякова 46, каб. 512</p></a></div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        <div class="contacts-map">
+            <div class="contacts-pusto"></div>
+            <div class="contacts-blocking">
+                <div class="contacts-text">
+                    <div class="contacts-text_block"><a href="tel:8(3452)593671" class="contacts-link"><img src="./img/home/contacts/phone.svg" alt="" class="contacts-img"><p class="contacts-span">8 (3452) 59 – 36 – 71</p></a></div>
+                    <div class="contacts-text_block"><a href="mailto:argus-ops@mail.ru" class="contacts-link"><img src="./img/home/contacts/mail.svg" alt="" class="contacts-img"><p class="contacts-span">argus-ops@mail.ru</p></a></div>
+                    <div class="contacts-text_block"><a target="_blank" href="https://yandex.ru/maps/55/tyumen/house/ulitsa_permyakova_46/YkwYcwBpQE0HQFttfX1zcXlkZw==/?ll=65.579980%2C57.120573&z=17.09" class="contacts-link"><img src="./img/home/contacts/map.svg" alt="" class="contacts-img"><p class="contacts-span">Адрес: г.Тюмень Пемякова 46, каб. 512</p></a></div>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+
+       </div>
+
+   </section>
+
+   <footer class="footer">
+       <section class="section footer-first">
+           <div class="container">
+               <div class="row">
+                   <div class="col-lg-2 col-md-4 col-12 order-md-1 order-lg-1 order-1">
+                       <div class="footer-logo_block"><img src="./img/footer/logo.svg" alt="LOGO" class="footer-logo"></div>
+                   </div>
+                   <div class="col-lg-3 offset-lg-1 col-md-6 offset-md-3 col-12 offset-0 order-md-4 order-lg-2 order-4">
+                       <div class="footer-info-block">
+                           <p class="footer-text">ИНН 7204166215</p>
+                           <p class="footer-text">ОГРН 1117232007111</p>
+                           <p class="footer-text">р/с 40702810467100048176</p>
+                           <p class="footer-text">к/с 30101810800000000651</p>
+                           <p class="footer-text">БИК/КПП 047102651/720301001</p>
+                       </div>
+                   </div>
+                   <div class="col-lg-3 col-md-6 offset-md-2 col-12 offset-0 order-md-2 offset-lg-0 order-lg-
+                   3 order-3">
+                       <div class="footer-info-block">
+                           <div class="footer-info-block_text">
+                               <a href="#" class="footer-link">
+                                   <img src="./img/footer/fax.svg" alt="" class="footer-link-img">
+                                   <p class="footer-text">3452/ 593-020 (номер факса)</p>
+                               </a>
+                           </div>
+                           <div class="footer-info-block_text">
+                               <a href="tel:8(3452)593671" class="footer-link">
+                                   <img src="./img/footer/phone.svg" alt="" class="footer-link-img">
+                                   <p class="footer-text">8 (3452) 59 – 36 – 71</p>
+                               </a>
+                           </div>
+                           <div class="footer-info-block_text">
+                               <a href="mailto:argus-ops@mail.ru" class="footer-link">
+                                   <img src="./img/footer/mail.svg" alt="" class="footer-link-img">
+                                   <p class="footer-text">argus-ops@mail.ru</p>
+                               </a>
+                           </div>
+                           <div class="footer-info-block_text">
+                               <a target="_blank" href="https://yandex.ru/maps/55/tyumen/house/ulitsa_permyakova_46/YkwYcwBpQE0HQFttfX1zcXlkZw==/?ll=65.579980%2C57.120573&z=17.09" class="footer-link">
+                                   <img src="./img/footer/map.svg" alt="" class="footer-link-img">
+                                   <p class="footer-text">Адрес: г.Тюмень Пемякова 46, каб. 512</p>
+                               </a>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-lg-2 offset-lg-1 col-md-3 offset-md-0 col-12 offset-0 order-lg-4 order-md-3 order-2">
+                       <div class="footer-navigator-block">
+                           <a href="javascript://0"  onclick="slowScroll('#about')"class="footer-navigator-link">
+                               <p class="footer-navigator">О нас</p>
+                           </a>
+                           <a href="javascript://0"  onclick="slowScroll('#services')" class="footer-navigator-link">
+                               <p class="footer-navigator">Услуги</p>
+                           </a>
+                           <a href="#" class="footer-navigator-link">
+                               <p class="footer-navigator">Прайс-лист</p>
+                           </a>
+                           <a href="javascript://0"  onclick="slowScroll('#contacts')" class="footer-navigator-link">
+                               <p class="footer-navigator">Контакты</p>
+                           </a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+       <section class="section footer-twice">
+           <div class="container">
+               <div class="row">
+                   <div class="col-lg-4 offset-lg-4 col-md-5 offset-md-0 col-6 offset-0">
+                       <div class="footer-twice-block_creature"><a target="_blank" href="https://goryachenok.ru/"><span class="footer-twice-span">site by Nikita Goryachev</span></a></div>
+                   </div>
+                   <div class="col-lg-2 offset-lg-2 col-md-4 offset-md-3 col-6 offset-0">
+                       <div class="footer-twice-block_coopyright"><span class="footer-twice-span">copyright 2015-2020</span></div>
+                   </div>
+               </div>
+           </div>
+       </section>
+   </footer>
+
+
+       <!-- Модальные окна -->
+       <div class="popup">
+        <div class="popup-dialog">
+          <div class="popup-content form-block ">
+            <button class="popup-close">&#215;</button>
+            <div class="popup-form">
+              <h3 class="popup-title ">Оставить завку</h3>
+              <form action="mailer/smart.php" class="form" method="POST" id="form"> 
+                    <p class="popup-name">Ваше имя (как к вам обращаться):</p> 
+                  <input type="text" required  class="form-input" name="user_name" >
+                  <p class="popup-name">Компания, город:</p>  
+                  <input type="text" id="phones" required  class="form-input" name="user_phone">
+                  <p class="popup-name">Должность:</p> 
+                  <input type="text" name="user_summ" required  class="form-input">
+                  <p class="popup-name">Номер телефона:</p> 
+                  <input type="text" name="user_summ" required  class="form-input">
+                  <p class="popup-name">E-mail:</p> 
+                  <input type="text" name="user_summ" required  class="form-input">
+                  <p class="popup-name">Ваш вопрос:</p> 
+                  <textarea type="text" rows="3" name="user_summ" required  class="form-input"></textarea>
+                  <div class="popup-block">
+                      <img src="./img/popup/vector.svg" alt="" class="popup-img">
+                      <p class="popup-paragraph">Я хочу получать рассылку на указанный электронный адрес.</p>
+                  </div>
+                    <button type="submit" class="button popup-button " name="submit" value="Готово">Оправить</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+   <script src="./js/jquery-3.0.0.min.js"></script>
+   <script src="./js/main.js"></script>
+   <script src="./js/scroll.js"></script>
+    
+</body>
+</html>
