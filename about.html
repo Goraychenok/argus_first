@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/magnific-popup.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="img/logo.png">
     <title>Аргус72</title>
@@ -23,7 +25,7 @@
                     <ul class="header__list">
                         <li><a href="./index.html" class="header__link">Главная</a></li>
                         <li><a href="./about.html"   class="header__link">О нас</a></li>
-                        <li><a href="javascript://0"  onclick="slowScroll('#services')" class="header__link">Услуги</a></li>
+                        <li><a href="./index.html#services"   class="header__link">Услуги</a></li>
                         <li><a href="#"   class="header__link">Прайс-лист</a></li>
                         <li><a href="javascript://0"  onclick="slowScroll('#contacts')" class="header__link">Конаткты</a></li>
                     </ul>
@@ -46,7 +48,7 @@
             <div class="row">
                 <div class="col-lg-7 col-md-7">
                     <h1 class="about-first-title">
-                        <span>Аргус</span> была основа в 2004г.
+                        <span>Компания "Аргус"</span> была основа в 2004г.
                     </h1>
                     <p class="about-first-paragraph">	С того времени мы крепко закрепились в лидирующих позициях
                     </p>
@@ -64,10 +66,10 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-7">
-                    <p class="about-company-paragraph">Компания ГК Аргус основана в 2004 году и является  организацией, которая оказывает полный спектр услуг в области обеспечения мер пожарной безопасности на всей территории России.
+                    <p class="about-company-paragraph">Компания Аргус основана в 2004 году и является  организацией, которая оказывает полный спектр услуг в области обеспечения мер пожарной безопасности на всей территории России.
                         Наша миссия - сильная, надежная компания, содействующая организациям в развитии современного института пожарной и технологической безопасности. 
                         </p>
-                    <p class="about-company-paragraph">ГК Аргус располагает полным пакетом необходимых документов для выполнения работ на всех жизненных циклах объекта: от квалифицированного грамотного проектирования до надежной эксплуатации.
+                    <p class="about-company-paragraph"> Аргус располагает полным пакетом необходимых документов для выполнения работ на всех жизненных циклах объекта: от квалифицированного грамотного проектирования до надежной эксплуатации.
 
                     </p>
                     <p class="about-company-paragraph">Высокая квалификация  наших сотрудников проектно-нормативного отдела, владеющих актуальной информацией по всем текущим изменениям нормативных документов в области пожарной безопасности, дает право быть уверенным в своевременной сдаче проектной документации заказчиком и отсутствии замечаний при прохождение нормативной экспертизы.
@@ -93,36 +95,164 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-2">
-                    <div class="about-companys-block">
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="about-companys-block about-companys-block-first ">
                         <p class="about-companys-paragraph"><span>ЭНКО:</span><br> 
-                            ЖК Преображенский,<br> ЖК Шоколад</p>
+                            ЖК Преображенский, ЖК Шоколад</p>
                     </div>
                 </div>
-                <div class="col-lg-2">
-                    <div class="about-companys-block">
-                        <p class="about-companys-paragraph"><span></span></p>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="about-companys-block about-companys-block-twice">
+                        <p class="about-companys-paragraph"><span>Меридиан:</span><br> 
+                            ЖК Закалужская, ЖК Тобольск, ЖК Добрый, Вележинская, Новый Мыс, Новый Мыс 2.0, Тармыны</p>
                     </div>
                 </div>
-                <div class="col-lg-2">
-                    <div class="about-companys-block">
-                        <p class="about-companys-paragraph"><span></span></p>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="about-companys-block about-companys-block-three">
+                        <p class="about-companys-paragraph"><span>Арсиб:</span><br> 
+                            ТРЦ Магелан, ТРЦ Колумб, ТРЦ Континент, ЖК Горизонт;</p>
                     </div>
                 </div>
-                <div class="col-lg-2">
-                    <div class="about-companys-block">
-                        <p class="about-companys-paragraph"><span></span></p>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="about-companys-block about-companys-block-four ">
+                        <p class="about-companys-paragraph"><span>Партнер:</span><br> 
+                            Детский садик, 3 заречный микрорайон</p>
                     </div>
                 </div>
-                <div class="col-lg-2">
-                    <div class="about-companys-block">
-                        <p class="about-companys-paragraph"><span></span></p>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="about-companys-block about-companys-block-five">
+                        <p class="about-companys-paragraph"><span>Стандарт:</span><br> 
+                            ЖК МСК-ГП-1, ЖК ГП-3</p>
                     </div>
                 </div>
-                <div class="col-lg-2">
-                    <div class="about-companys-block">
-                        <p class="about-companys-paragraph"><span></span></p>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="about-companys-block about-companys-block-six">
+                        <p class="about-companys-paragraph"><span>ЭНКО:</span><br> 
+                            ЖК Преображенский, ЖК Шоколад</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section about-certificates">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h5 class="section-title">Наши сертификаты и благодарственные письма</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="swiper-desktop">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                  <div class="container">
+                                
+                                          <div class="about-certificates-block-desktop">
+                                              <div class="row">
+                                                <div class="col-lg-3 col-md-3"><a class="image-popup-no-margins" href="./img/about/certificates/first.jpeg"><img src="./img/about/certificates/first.jpeg" alt="" class="about-company-img"></a></div>
+                                                <div class="col-lg-3 col-md-3"><a class="image-popup-no-margins" href="./img/about/certificates/twicr.jpeg"><img src="./img/about/certificates/twicr.jpeg" alt="" class="about-company-img"></a></div>
+                                                <div class="col-lg-3 col-md-3"><a class="image-popup-no-margins" href="./img/about/certificates/three.jpeg"><img src="./img/about/certificates/three.jpeg" alt="" class="about-company-img"></a></div>
+                                                <div class="col-lg-3 col-md-3"><a class="image-popup-no-margins" href="./img/about/certificates/four.jpeg"><img src="./img/about/certificates/four.jpeg" alt="" class="about-company-img"></a></div>
+                                              </div>
+                                          </div>
+                                
+                                  </div>
+                              </div>
+                              <div class="swiper-slide">
+                                  <div class="container">
+                                    <div class="about-certificates-block-desktop">
+                                        <div class="row">
+                                          <div class="col-lg-3 col-md-3"><a class="image-popup-no-margins" href="./img/about/certificates/five.jpeg"><img src="./img/about/certificates/five.jpeg" alt="" class="about-company-img"></a></div>
+                                          <div class="col-lg-3 col-md-3"><a class="image-popup-no-margins" href="./img/about/certificates/six.jpeg"><img src="./img/about/certificates/six.jpeg" alt="" class="about-company-img"></a></div>
+                                          <div class="col-lg-3 col-md-3"><a class="image-popup-no-margins" href="./img/about/certificates/first.jpeg"><img src="./img/about/certificates/first.jpeg" alt="" class="about-company-img"></a></div>
+                                          <div class="col-lg-3 col-md-3"><a class="image-popup-no-margins" href="./img/about/certificates/twicr.jpeg"><img src="./img/about/certificates/twicr.jpeg" alt="" class="about-company-img"></a></div>
+                                        </div>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                          </div>
+                    </div>
+                      <div class="swiper-mobile">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                  <div class="container">
+                                
+                                          <div class="about-certificates-block-desktop">
+                                              <div class="row">
+                                                <div class="col-12"><img src="./img/about/certificates/first.jpeg" alt="" class="about-company-img"></div>
+                                              </div>
+                                          </div>
+                                
+                                  </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="container">
+                              
+                                        <div class="about-certificates-block-desktop">
+                                            <div class="row">
+                                              <div class="col-12"><img src="./img/about/certificates/twicr.jpeg" alt="" class="about-company-img"></div>
+                                            </div>
+                                        </div>
+                              
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="container">
+                              
+                                        <div class="about-certificates-block-desktop">
+                                            <div class="row">
+                                              <div class="col-12"><img src="./img/about/certificates/three.jpeg" alt="" class="about-company-img"></div>
+                                            </div>
+                                        </div>
+                              
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="container">
+                              
+                                        <div class="about-certificates-block-desktop">
+                                            <div class="row">
+                                              <div class="col-12"><img src="./img/about/certificates/four.jpeg" alt="" class="about-company-img"></div>
+                                            </div>
+                                        </div>
+                              
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="container">
+                              
+                                        <div class="about-certificates-block-desktop">
+                                            <div class="row">
+                                              <div class="col-12"><img src="./img/about/certificates/five.jpeg" alt="" class="about-company-img"></div>
+                                            </div>
+                                        </div>
+                              
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="container">
+                              
+                                        <div class="about-certificates-block-desktop">
+                                            <div class="row">
+                                              <div class="col-12"><img src="./img/about/certificates/six.jpeg" alt="" class="about-company-img"></div>
+                                            </div>
+                                        </div>
+                              
+                                </div>
+                            </div>
+                              
+                            </div>
+                            <!-- Add Arrows -->
+                          </div>
+                      </div>
                 </div>
             </div>
         </div>
@@ -248,7 +378,7 @@
 
        <!-- Модальные окна -->
        <div class="popup">
-        <div class="popup-dialog">
+        <div class="popup-dialog" id="popup-dialog">
           <div class="popup-content form-block ">
             <button class="popup-close">&#215;</button>
             <div class="popup-form">
@@ -278,6 +408,9 @@
       </div> 
 
    <script src="./js/jquery-3.0.0.min.js"></script>
+   <script src="./js/swiper.min.js"></script>
+   <script src="./js/jquery.magnific-popup.min.js"></script>
+   <script src="./js/about.js"></script>
    <script src="./js/main.js"></script>
    <script src="./js/scroll.js"></script>
     
