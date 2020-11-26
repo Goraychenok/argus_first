@@ -490,7 +490,67 @@ a:hover {
   font-weight: bold;
 }
 .fire-quard {
-  background: url(../img/servises/firequard.svg) no-repeat center left;
+  background: url(../img/servises/firequard.png) no-repeat center left;
+  background-size: cover;
+}
+.project {
+  background: url(../img/servises/project.png) no-repeat center left;
+  background-size: cover;
+}
+.signal-fire {
+  background: url(../img/servises/signalfire.png) no-repeat center left;
+  background-size: cover;
+}
+.system_control {
+  background: url(../img/servises/systemcontrol.png) no-repeat center left;
+  background-size: cover;
+}
+.video {
+  background: url(../img/servises/video.png) no-repeat center left;
+  background-size: cover;
+}
+.air {
+  background: url(../img/servises/air.png) no-repeat center left;
+  background-size: cover;
+}
+.air_smoke {
+  background: url(../img/servises/airsmoke.png) no-repeat center left;
+  background-size: cover;
+}
+.automatic_fire {
+  background: url(../img/servises/automaticfire.png) no-repeat center left;
+  background-size: cover;
+}
+.canalization {
+  background: url(../img/servises/canalization.png) no-repeat center left;
+  background-size: cover;
+}
+.connection {
+  background: url(../img/servises/connection.png) no-repeat center left;
+  background-size: cover;
+}
+.fire_cost {
+  background: url(../img/servises/firecost.png) no-repeat center left;
+  background-size: cover;
+}
+.fire_danger {
+  background: url(../img/servises/firedanger.png) no-repeat center left;
+  background-size: cover;
+}
+.fire-quarden {
+  background: url(../img/servises/firequrden.png) no-repeat center left;
+  background-size: cover;
+}
+.fire_signal {
+  background: url(../img/servises/firesignal.png) no-repeat center left;
+  background-size: cover;
+}
+.fire_teckhical {
+  background: url(../img/servises/fireteckhical.png) no-repeat center left;
+  background-size: cover;
+}
+.plan {
+  background: url(../img/servises/plan.png) no-repeat center left;
   background-size: cover;
 }
 .services-pusto {
@@ -506,6 +566,53 @@ a:hover {
   font-size: 3.6rem;
   color: #ffffff;
   text-shadow: 8px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.services-text {
+  padding-top: 15rem;
+}
+.services-paragraph {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin-bottom: 3.6rem;
+  color: #000000;
+}
+.services-paragraph-ul {
+  margin-bottom: 2rem;
+}
+.services-li {
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+.services-ul {
+  margin-bottom: 3.6rem;
+}
+.services-img {
+  width: 100%;
+}
+.services-img-block {
+  padding-top: 4rem;
+}
+.services-plan-block {
+  text-align: center;
+  -webkit-box-shadow: 17px 22px 40px rgba(0, 0, 0, 0.04);
+          box-shadow: 17px 22px 40px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+  padding: 2rem 5rem;
+  min-height: 20rem;
+  background: #ffffff;
+  margin-bottom: 4.5rem;
+}
+.services-plan-paragraph {
+  font-size: 1.4rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: #000000;
+  padding-top: 2rem;
 }
 .contacts {
   padding-bottom: 7rem;
@@ -570,6 +677,9 @@ a:hover {
   font-size: 1.4rem;
   color: #DADADA;
   margin-bottom: 1rem;
+}
+.footer-logo {
+  width: 100%;
 }
 .footer-logo_block {
   padding-top: 3em;
@@ -811,6 +921,9 @@ a:hover {
     font-size: 0.8rem;
     line-height: 1rem;
   }
+  .services-plan-paragraph {
+    font-size: 1.2rem;
+  }
 }
 @media (max-width: 800px) {
   .header__block {
@@ -995,15 +1108,28 @@ a:hover {
   .section-paragraph {
     padding-bottom: 3rem;
   }
-  .fire-quard {
-    background: url(../img/servises/firequard.svg) no-repeat center left;
-    background-size: cover;
-  }
   .services-first {
     padding: 10rem 0rem;
   }
   .services-pusto {
     height: 50px;
+  }
+  .services-text {
+    padding-top: 8rem;
+  }
+  .services-paragraph {
+    font-size: 1.2rem;
+    margin-bottom: 2.8rem;
+  }
+  .services-paragraph-ul {
+    margin-bottom: 1.4rem;
+  }
+  .services-li {
+    font-size: 1.2rem;
+    margin-bottom: 1.4rem;
+  }
+  .services-plan-block {
+    min-height: 19rem;
   }
   .footer-first {
     padding-top: 4rem;
@@ -1100,11 +1226,87 @@ a:hover {
     width: 70%;
   }
   .fire-quard {
-    background: url(../img/servises/firequardmobile.svg) no-repeat center;
+    background: url(../img/servises/firequardmobile.png) no-repeat center;
+    background-size: cover;
+  }
+  .project {
+    background: url(../img/servises/projectmobile.png) no-repeat center;
+    background-size: cover;
+  }
+  .signal-fire {
+    background: url(../img/servises/signalfiremobile.png) no-repeat center;
+    background-size: cover;
+  }
+  .system_control {
+    background: url(../img/servises/systemcontrolmobile.png) no-repeat center;
+    background-size: cover;
+  }
+  .video {
+    background: url(../img/servises/videomobile.png) no-repeat center;
+    background-size: cover;
+  }
+  .air {
+    background: url(../img/servises/airmobile.png) no-repeat center;
+    background-size: cover;
+  }
+  .air_smoke {
+    background: url(../img/servises/airsmokemobile.png) no-repeat center;
+    background-size: cover;
+  }
+  .automatic_fire {
+    background: url(../img/servises/automaticfiremobile.png) no-repeat center;
+    background-size: cover;
+  }
+  .canalization {
+    background: url(../img/servises/canalizationmobile.png) no-repeat center;
+    background-size: cover;
+  }
+  .connection {
+    background: url(../img/servises/connectionmobile.png) no-repeat center;
+    background-size: cover;
+  }
+  .fire_cost {
+    background: url(../img/servises/firecostmobile.png) no-repeat center;
+    background-size: cover;
+  }
+  .fire_danger {
+    background: url(../img/servises/firedangermobile.png) no-repeat center;
+    background-size: cover;
+  }
+  .fire-quarden {
+    background: url(../img/servises/firequrdenmobile.png) no-repeat center;
+    background-size: cover;
+  }
+  .fire_signal {
+    background: url(../img/servises/firesignalmobile.png) no-repeat center;
+    background-size: cover;
+  }
+  .fire_teckhical {
+    background: url(../img/servises/fireteckhicalmobile.png) no-repeat center;
+    background-size: cover;
+  }
+  .plan {
+    background: url(../img/servises/planmobile.png) no-repeat center;
     background-size: cover;
   }
   .services-title {
     font-size: 2.2rem;
+  }
+  .services-text {
+    padding-top: 4rem;
+  }
+  .services-img {
+    margin-bottom: 2rem;
+  }
+  .services-plan-block {
+    padding: 1rem 0.5rem;
+    min-height: 10rem;
+  }
+  .services-plan-paragraph {
+    font-size: 0.8rem;
+  }
+  .services-plan-img {
+    width: 40%;
   }
   .section-title {
     padding-bottom: 2rem;
@@ -1140,6 +1342,26 @@ a:hover {
   }
   .popup-content {
     width: 100%;
+    top: 0;
+    padding: 1rem 2.5rem;
+  }
+  .popup-title {
+    padding-bottom: 1rem;
+    margin: 0;
+  }
+  .popup-name {
+    font-size: 1.2rem;
+  }
+  .popup-paragraph {
+    font-size: 1rem;
+  }
+  .popup-button {
+    padding: 1.2rem 3rem;
+    font-size: 1.2rem;
+  }
+  .form-input {
+    width: 100%;
+    padding: 0.2rem;
   }
   .swiper-desktop {
     display: none;
@@ -1177,36 +1399,9 @@ a:hover {
     font-size: 1.4rem;
     line-height: 1.6rem;
   }
-  .popup-content {
-    top: 0;
-  }
-  .popup-title {
-    margin-bottom: 0.2rem;
-  }
 }
 @media (max-width: 330px) {
   .footer-twice-span {
     font-size: 0.9rem;
-  }
-  .popup-content {
-    padding: 1rem 2.5rem;
-  }
-  .popup-title {
-    padding-bottom: 1rem;
-    margin: 0;
-  }
-  .popup-name {
-    font-size: 1.2rem;
-  }
-  .popup-paragraph {
-    font-size: 1rem;
-  }
-  .popup-button {
-    padding: 1.2rem 3rem;
-    font-size: 1.2rem;
-  }
-  .form-input {
-    width: 100%;
-    padding: 0.2rem;
   }
 }
